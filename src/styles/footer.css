@@ -1,0 +1,35 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: gray ;
+    padding-top: 10px;
+    width: 100%;
+    margin-top: 50px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+    padding-bottom: 5px ;
+}
+footer .social{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.social a{
+    font-size: 45px;
+    color: white;
+    animation-name: animation-social;
+    animation-duration: 2s;
+}
+
+.social a:hover{
+    transform: scale(1.2);
+}
+
+
+
