@@ -5,6 +5,7 @@ footer{
     padding-top: 10px;
     width: 100%;
     margin-top: 50px;
+    align-self:flex-end;
 }
 img{
     display: block;

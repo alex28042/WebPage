@@ -1,14 +1,22 @@
+
 * {
     margin: 0%;
 }
 body{
     font-family:  sans-serif;
     background: white;
+    min-height: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 100px;
+}
+main{
+    flex: 1 0 auto;
+
 }
 
 #main-text{
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 600px;
 }
 
 .container{
