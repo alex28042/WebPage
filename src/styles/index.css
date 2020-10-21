@@ -3,7 +3,7 @@
     margin: 0%;
 }
 body{
-    font-family:   'Montserrat', sans-serif;
+    font-family:   'Montserrat';
     background: linear-gradient(45deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%);
     min-height: 100%;
     color: white;
