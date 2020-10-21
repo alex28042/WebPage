@@ -3,24 +3,68 @@
     margin: 0%;
 }
 body{
-    font-family:  sans-serif;
-    background: white;
+    font-family:   'Montserrat', sans-serif;
+    background: linear-gradient(45deg, #ffcc5c 20%, #3c3c3c 20% 50%, #ff6f69 50% 80%, #96ceb4 80%);
     min-height: 100%;
-    flex-wrap: wrap;
-    position: relative;
+    color: white;
     padding-bottom: 100px;
+    position: relative;
 }
-main{
-    flex: 1 0 auto;
-
-}
-
 #main-text{
-    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 50px;
 }
-
 .container{
     width: 85%;
     max-width: 12000px;
     margin: 0 auto;
+    color: white;
+}
+img{
+    width: 200px;
+    height: 400px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 10px ;
+    float: left;
+    margin-right: 9px;
+}
+.caja{
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+    height: 600px;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    border-radius: 20px;
+}
+.texto-caja{
+    padding-top: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.flecha{
+    float: right;
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.flecha:hover{
+    transform: scale(1,1.3) ;
+}
+#arriba{
+    border: none;
+    background:   #ff6f69 50% 80%;
+    font-size: 28px;
+}
+#icon{
+    margin-left: 20px;
+    margin-top: 15px;
+    display:  inline-block;
+    color: ghostwhite;
+    font-size: 90px;
+    width: 30%;
+    justify-content: space-between;
 }

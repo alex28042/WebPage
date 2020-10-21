@@ -1,8 +1,9 @@
 header{
     background-color: gray;
     padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
-
 
 .nom{
     text-decoration: none;
@@ -37,13 +38,12 @@ header{
 li a:hover{
     background-color: slategrey;
 }
-#btn{
-    border-radius: 1000px;
-    border: none;
-    color: white;
+button{
     background-color: gray;
+    border-radius: 10px;
+    border: none;
 }
-#btn i{
-    margin-right: 9px;
-    font-size: 110%;
+#alerta{
+    background-color: gray;
+    font-family:   'Montserrat'
 }

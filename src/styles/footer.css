@@ -1,18 +1,8 @@
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: 0%;
     background-color: gray ;
-    padding-top: 10px;
     width: 100%;
-    margin-top: 50px;
-    align-self:flex-end;
-}
-img{
-    display: block;
-    margin: auto;
-    width: 20%;
-    height: 20%;
-    padding-bottom: 5px ;
 }
 footer .social{
     display: flex;
