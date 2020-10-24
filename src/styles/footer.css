@@ -3,6 +3,8 @@ footer{
     bottom: 0%;
     background-color: gray ;
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 footer .social{
     display: flex;
@@ -14,8 +16,7 @@ footer .social{
 .social a{
     font-size: 45px;
     color: white;
-    animation-name: animation-social;
-    animation-duration: 2s;
+    transition: all 150ms ease;
 }
 
 .social a:hover{
