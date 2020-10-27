@@ -60,6 +60,7 @@ img{
     right: 50px;
     cursor: pointer;
     transition: all 200ms ease;
+    outline: none;
 }
 .flecha:hover{
     transform: scale(1.1);
@@ -73,4 +74,51 @@ img{
     width: 30%;
     align-items: center;
     justify-content: space-between;
+}
+.time{
+    outline: none;
+    font-size: 30px;
+    background: none;
+    cursor: pointer;
+    margin-top: 20px;
+    justify-content: center;
+    float: left;
+    align-items: center;
+    color: #45fc88;
+    transition: all 150ms ease;
+}
+.time:hover{
+    transform: scale(1.1);
+}
+#hora{
+    font-size: 30px;
+    margin-top: 20px;
+    float: left;
+}
+.weather-position{
+    float: right;
+    margin-top: 200px;
+}
+.input{
+    text-align: center;
+}
+
+input[type = "text"]{
+    height: 20px;
+    width: 100px;
+    background: cornsilk;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+input[type = "submit"]{
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    height: 20px;
+    cursor: pointer;
+    background: #23D5AB;
+}
+.display{
+    text-align: center;
 }
