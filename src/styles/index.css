@@ -97,28 +97,20 @@ img{
 }
 .weather-position{
     float: right;
-    margin-top: 200px;
+    margin-top: 20px;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5,#23D5AB);
+    background-size: 400% 400%;
+    width: 200px;
+    height: 85px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 30px;
 }
 .input{
     text-align: center;
 }
 
-input[type = "text"]{
-    height: 20px;
-    width: 100px;
-    background: cornsilk;
-    border: none;
-    border-radius: 10px;
-    outline: none;
-}
-input[type = "submit"]{
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    height: 20px;
-    cursor: pointer;
-    background: #23D5AB;
-}
 .display{
     text-align: center;
 }
