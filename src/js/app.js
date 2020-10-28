@@ -2,7 +2,7 @@
 var ciudad = document.querySelector('.ciudad');
 var temperatura = document.querySelector('.temperatura');
 
-fetch( 'http://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=ae054c56b006a82fa7280121b0aad26a')
+fetch( 'api.openweathermap.org/data/2.5/weather?q=Madrid&appid=ae054c56b006a82fa7280121b0aad26a')
 .then(response => response.json())
 .then(data => {
     var valorNombre = data['name'];
